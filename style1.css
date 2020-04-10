@@ -180,7 +180,7 @@ label #cancel {
     transition: all .5s ease;
 }
 #check:checked ~ .sidebar{
-    left: 35px;
+    left: 75px;
 }
 #check:checked ~ label #btn{
     left: 0;
