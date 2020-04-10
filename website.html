@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset = "utf-8" />
+    <title>DSC.MOV - Watch movies online</title>
+ 
+    <!--iframe-- width="0" height="0" src="https://www.youtuberepeater.com/watch?v=ZJkYKjfmld0#gsc.tab=0" allowfullscreen></!--iframe-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap">
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Ewert&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/654fc1d182.js" crossorigin="anonymous"></script>
+    <script>
+        var beep5 = new Audio();
+        beep5.src = 'hover-btn.mp3';
+    </script>
+    <link rel="stylesheet" type="text/css" href="css/style1.css">
+
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <h4>DSC.MOVI</h4>
+        </div>  
+        <ul class="nav-links">
+            <li>
+                <a href="#" class="hover1">Home</a>
+            </li>
+            <li>
+                <a href="#" class="hover1">Movies</a>
+            </li>
+            <li>
+                <a href="#" class="hover1">News</a>
+            </li>
+            <li>
+                <a href="#" class="hover1">Blogs</a>
+            </li>
+            <li>
+                <a href="#" class="hover1">About</a>
+            </li>
+        </ul>
+        <li>
+            <div class="searchContainer">
+                <i class="fa fa-search searchIcon"></i>
+                <input class="searchBox" type="search" name="search" placeholder="Search For Movies...">
+            </div>
+        </li>
+        <div class="profile-avatar" style="background-image:url(https://m.media-amazon.com/images/G/02/CerberusPrimeVideo-FN38FSBD/adult-1.png)"></div>
+     </nav>
+    <input type="checkbox" id="check">
+    <label for="check">
+        <i class="fas fa-bars" id="btn"></i>
+        <i class="fas fa-times" id="cancel"></i>
+    </label>
+    <div class="movianim"></div>
+    <div class="movibar">
+        <div class="movcolor">
+            <div class="movie-title"></div>
+            <div class="imdbetc">
+                <span>
+                    <img src="https://img.icons8.com/color/48/000000/imdb.png"/>
+                </span>
+                <span data-automation-id="imdb-rating" class="imdbr">7.5</span>
+                <span class="time">
+                    <span data-automation-id="runtime">2h 19min</span>
+                </span>
+                <span class="year">
+                    <span data-automation-id="release-year">2018</span>
+                </span>
+                <span class="xray">
+                    <span data-automation-id="x-ray">X-Ray</span>
+                </span>
+            </div>
+            <div class="play">
+                <span class="playico" onmouseover="beep5.play();" onmouseout="beep5.stop()" >
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                        width="100" height="100"
+                        viewBox="0 0 172 172"
+                        style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g><path d="M22.36,46.44c-1.89986,0 -3.44,1.54014 -3.44,3.44c0,1.89986 1.54014,3.44 3.44,3.44c1.89986,0 3.44,-1.54014 3.44,-3.44c0,-1.89986 -1.54014,-3.44 -3.44,-3.44z" fill="#ee3e54"></path><path d="M132.44,20.64c-0.94993,0 -1.72,0.77007 -1.72,1.72c0,0.94993 0.77007,1.72 1.72,1.72c0.94993,0 1.72,-0.77007 1.72,-1.72c0,-0.94993 -0.77007,-1.72 -1.72,-1.72z" fill="#f1bc19"></path><path d="M86,22.36c-35.1474,0 -63.64,28.4926 -63.64,63.64c0,35.1474 28.4926,63.64 63.64,63.64c35.1474,0 63.64,-28.4926 63.64,-63.64c0,-35.1474 -28.4926,-63.64 -63.64,-63.64z" fill="#fce0a2"></path><path d="M142.76,18.92c-3.79972,0 -6.88,3.08028 -6.88,6.88c0,3.79972 3.08028,6.88 6.88,6.88c3.79972,0 6.88,-3.08028 6.88,-6.88c0,-3.79972 -3.08028,-6.88 -6.88,-6.88z" fill="#f1bc19"></path><path d="M149.64,37.84c-1.89986,0 -3.44,1.54014 -3.44,3.44c0,1.89986 1.54014,3.44 3.44,3.44c1.89986,0 3.44,-1.54014 3.44,-3.44c0,-1.89986 -1.54014,-3.44 -3.44,-3.44z" fill="#ee3e54"></path><path d="M139.32,127.28c-1.89986,0 -3.44,1.54014 -3.44,3.44c0,1.89986 1.54014,3.44 3.44,3.44c1.89986,0 3.44,-1.54014 3.44,-3.44c0,-1.89986 -1.54014,-3.44 -3.44,-3.44zM25.8,101.48c-3.79972,0 -6.88,3.08028 -6.88,6.88c0,3.79972 3.08028,6.88 6.88,6.88c3.79972,0 6.88,-3.08028 6.88,-6.88c0,-3.79972 -3.08028,-6.88 -6.88,-6.88z" fill="#fbcd59"></path><path d="M43,146.2c-1.89986,0 -3.44,1.54014 -3.44,3.44c0,1.89986 1.54014,3.44 3.44,3.44c1.89986,0 3.44,-1.54014 3.44,-3.44c0,-1.89986 -1.54014,-3.44 -3.44,-3.44z" fill="#ee3e54"></path><path d="M31.82,87.72c-2.37482,0 -4.3,1.92518 -4.3,4.3c0,2.37482 1.92518,4.3 4.3,4.3c2.37482,0 4.3,-1.92518 4.3,-4.3c0,-2.37482 -1.92518,-4.3 -4.3,-4.3z" fill="#ffffff"></path><path d="M36.12,113.52c-0.94993,0 -1.72,0.77007 -1.72,1.72c0,0.94993 0.77007,1.72 1.72,1.72c0.94993,0 1.72,-0.77007 1.72,-1.72c0,-0.94993 -0.77007,-1.72 -1.72,-1.72z" fill="#f1bc19"></path><path d="M137.6,56.76c-0.94993,0 -1.72,0.77007 -1.72,1.72c0,0.94993 0.77007,1.72 1.72,1.72c0.94993,0 1.72,-0.77007 1.72,-1.72c0,-0.94993 -0.77007,-1.72 -1.72,-1.72z" fill="#ffffff"></path><g><path d="M86,44.075c-23.0358,0 -41.71,18.6742 -41.71,41.71c0,23.0358 18.6742,41.71 41.71,41.71c23.0358,0 41.71,-18.6742 41.71,-41.71c0,-23.0358 -18.6742,-41.71 -41.71,-41.71z" fill="#48bed8"></path><path d="M86,128.699c-23.66204,0 -42.914,-19.25024 -42.914,-42.914c0,-23.66376 19.25196,-42.914 42.914,-42.914c23.66204,0 42.914,19.25024 42.914,42.914c0,23.66376 -19.25196,42.914 -42.914,42.914zM86,45.279c-22.3342,0 -40.506,18.17008 -40.506,40.506c0,22.33592 18.1718,40.506 40.506,40.506c22.3342,0 40.506,-18.17008 40.506,-40.506c0,-22.33592 -18.1718,-40.506 -40.506,-40.506z" fill="#000000"></path></g><g fill="#000000"><path d="M119.40928,76.755c-0.36808,0 -0.70864,-0.23908 -0.82216,-0.60888c-0.15136,-0.49364 -0.31476,-0.98212 -0.48848,-1.46716c-0.67424,-1.88168 -1.52392,-3.71348 -2.5284,-5.45068c-0.23908,-0.40936 -0.09804,-0.9374 0.31304,-1.17476c0.41108,-0.24252 0.9374,-0.09804 1.17476,0.31476c1.05608,1.82492 1.95048,3.75304 2.65912,5.72932c0.18232,0.51084 0.35432,1.0234 0.51256,1.54284c0.13932,0.45408 -0.11524,0.93568 -0.57104,1.075c-0.08256,0.02752 -0.16684,0.03956 -0.2494,0.03956z"></path></g><g fill="#000000"><path d="M86,121.69c-19.79892,0 -35.905,-16.05964 -35.905,-35.79836c0,-19.73872 16.10608,-35.79664 35.905,-35.79664c10.277,0 20.07928,4.4032 26.89392,12.07956c0.51428,0.57964 1.01136,1.1782 1.4878,1.79052c0.29068,0.37496 0.2236,0.91332 -0.14964,1.20572c-0.37496,0.29584 -0.91504,0.22532 -1.20744,-0.15136c-0.45408,-0.58308 -0.9288,-1.15068 -1.41728,-1.7028c-6.48784,-7.31 -15.82228,-11.50336 -25.60736,-11.50336c-18.84948,0 -34.185,15.28736 -34.185,34.07836c0,18.791 15.33552,34.07836 34.185,34.07836c18.84948,0 34.185,-15.28736 34.185,-34.07836c0,-1.7114 -0.129,-3.43312 -0.38184,-5.11356c-0.07052,-0.46784 0.25284,-0.90644 0.7224,-0.97696c0.4816,-0.07396 0.90816,0.25284 0.97868,0.7224c0.26488,1.763 0.40076,3.57072 0.40076,5.36812c0,19.73872 -16.10608,35.79836 -35.905,35.79836z"></path></g><g><path d="M112.0322,87.63572l-39.818,22.22412c-1.1438,0.63812 -2.5542,-0.1892 -2.5542,-1.49984v-44.44824c0,-1.31064 1.4104,-2.13968 2.55592,-1.49984l39.818,22.22412c1.17304,0.65532 1.17304,2.34436 -0.00172,2.99968z" fill="#fffef4"></path><path d="M71.37828,110.94172c-0.45064,0 -0.89784,-0.1204 -1.30548,-0.35948c-0.79808,-0.46612 -1.2728,-1.2986 -1.2728,-2.22224v-44.44824c0,-0.92364 0.47472,-1.75612 1.27108,-2.22224c0.79636,-0.46612 1.7544,-0.47816 2.5628,-0.02924l39.818,22.22412c0.82732,0.46268 1.32268,1.30376 1.32268,2.25148c0,0.94772 -0.49536,1.7888 -1.32268,2.25148l-39.818,22.22412c-0.39388,0.22016 -0.8256,0.33024 -1.2556,0.33024zM71.38172,63.05176c-0.20124,0 -0.35948,0.07396 -0.4386,0.1204c-0.12728,0.07396 -0.42312,0.29584 -0.42312,0.7396v44.44824c0,0.44376 0.29584,0.66564 0.42312,0.7396c0.12384,0.07568 0.4644,0.2236 0.85312,0.01032l39.818,-22.22412c0.3956,-0.22188 0.44032,-0.59856 0.44032,-0.74992c0,-0.15136 -0.043,-0.52804 -0.44032,-0.74992l-39.818,-22.22412c-0.14964,-0.08084 -0.29068,-0.11008 -0.41452,-0.11008z" fill="#000000"></path></g><g fill="#000000"><path d="M74.82,103.76244c-0.14964,0 -0.301,-0.03784 -0.43516,-0.11696c-0.26316,-0.1548 -0.42484,-0.43688 -0.42484,-0.74304v-33.53312c0,-0.30616 0.16168,-0.58824 0.42484,-0.74304c0.26488,-0.1548 0.58996,-0.1548 0.85484,-0.0086l3.89064,2.17924c0.41452,0.2322 0.56244,0.75508 0.33024,1.17132c-0.2322,0.4128 -0.75508,0.559 -1.1696,0.33024l-2.61096,-1.46028v30.59708l27.31704,-15.2994l-10.71388,-6.00108c-0.41452,-0.2322 -0.56244,-0.7568 -0.33024,-1.17132c0.23048,-0.41624 0.75336,-0.56416 1.1696,-0.33024l12.05548,6.75272c0.27176,0.15308 0.44032,0.44032 0.44032,0.75164c0,0.31132 -0.16856,0.59856 -0.44032,0.75164l-29.9366,16.76656c-0.13244,0.07052 -0.27692,0.10664 -0.4214,0.10664z"></path></g><g><path d="M85.88132,75.55272l2.37704,1.34332l1.24012,0.70176" fill="#5aba9e"></path><path d="M89.49676,78.4578c-0.14276,0 -0.28896,-0.03612 -0.42312,-0.11008l-3.61716,-2.04508c-0.4128,-0.23392 -0.559,-0.75852 -0.32508,-1.17304c0.23392,-0.41108 0.76024,-0.559 1.17132,-0.32508l3.61888,2.04508c0.4128,0.23564 0.559,0.75852 0.32336,1.17304c-0.15652,0.27864 -0.4472,0.43516 -0.7482,0.43516z" fill="#000000"></path></g><g><path d="M81.21324,72.91424l1.8662,1.05608" fill="#5aba9e"></path><path d="M83.07944,74.83032c-0.14276,0 -0.28896,-0.03612 -0.42312,-0.11008l-1.8662,-1.05608c-0.41452,-0.23564 -0.559,-0.75852 -0.32508,-1.17304c0.23392,-0.41452 0.76024,-0.56072 1.17132,-0.32508l1.8662,1.05608c0.41452,0.23564 0.559,0.75852 0.32508,1.17304c-0.15652,0.27864 -0.44892,0.43516 -0.7482,0.43516z" fill="#000000"></path></g></g></g></svg>
+                </span>
+                <span class="playt">
+                    <span data-automation-id="play">PLAY</span>
+                </span>
+            </div>
+            <div class="wish">
+                <span class="wishl" onmouseover="beep5.play();">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                    width="100" height="100"
+                    viewBox="0 0 172 172"
+                    style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g><path d="M22.36,46.44c-1.89986,0 -3.44,1.54014 -3.44,3.44c0,1.89986 1.54014,3.44 3.44,3.44c1.89986,0 3.44,-1.54014 3.44,-3.44c0,-1.89986 -1.54014,-3.44 -3.44,-3.44z" fill="#78a0cf"></path><path d="M132.44,20.64c-0.94993,0 -1.72,0.77007 -1.72,1.72c0,0.94993 0.77007,1.72 1.72,1.72c0.94993,0 1.72,-0.77007 1.72,-1.72c0,-0.94993 -0.77007,-1.72 -1.72,-1.72z" fill="#f1bc19"></path><path d="M86,22.36c-35.1474,0 -63.64,28.4926 -63.64,63.64c0,35.1474 28.4926,63.64 63.64,63.64c35.1474,0 63.64,-28.4926 63.64,-63.64c0,-35.1474 -28.4926,-63.64 -63.64,-63.64z" fill="#fce0a2"></path><path d="M142.76,18.92c-3.79972,0 -6.88,3.08028 -6.88,6.88c0,3.79972 3.08028,6.88 6.88,6.88c3.79972,0 6.88,-3.08028 6.88,-6.88c0,-3.79972 -3.08028,-6.88 -6.88,-6.88z" fill="#f1bc19"></path><path d="M149.64,37.84c-1.89986,0 -3.44,1.54014 -3.44,3.44c0,1.89986 1.54014,3.44 3.44,3.44c1.89986,0 3.44,-1.54014 3.44,-3.44c0,-1.89986 -1.54014,-3.44 -3.44,-3.44z" fill="#78a0cf"></path><path d="M139.32,127.28c-1.89986,0 -3.44,1.54014 -3.44,3.44c0,1.89986 1.54014,3.44 3.44,3.44c1.89986,0 3.44,-1.54014 3.44,-3.44c0,-1.89986 -1.54014,-3.44 -3.44,-3.44zM25.8,101.48c-3.79972,0 -6.88,3.08028 -6.88,6.88c0,3.79972 3.08028,6.88 6.88,6.88c3.79972,0 6.88,-3.08028 6.88,-6.88c0,-3.79972 -3.08028,-6.88 -6.88,-6.88z" fill="#fbcd59"></path><path d="M43,146.2c-1.89986,0 -3.44,1.54014 -3.44,3.44c0,1.89986 1.54014,3.44 3.44,3.44c1.89986,0 3.44,-1.54014 3.44,-3.44c0,-1.89986 -1.54014,-3.44 -3.44,-3.44z" fill="#78a0cf"></path><path d="M31.82,87.72c-2.37482,0 -4.3,1.92518 -4.3,4.3c0,2.37482 1.92518,4.3 4.3,4.3c2.37482,0 4.3,-1.92518 4.3,-4.3c0,-2.37482 -1.92518,-4.3 -4.3,-4.3z" fill="#ffffff"></path><path d="M36.12,113.52c-0.94993,0 -1.72,0.77007 -1.72,1.72c0,0.94993 0.77007,1.72 1.72,1.72c0.94993,0 1.72,-0.77007 1.72,-1.72c0,-0.94993 -0.77007,-1.72 -1.72,-1.72z" fill="#f1bc19"></path><path d="M137.6,56.76c-0.94993,0 -1.72,0.77007 -1.72,1.72c0,0.94993 0.77007,1.72 1.72,1.72c0.94993,0 1.72,-0.77007 1.72,-1.72c0,-0.94993 -0.77007,-1.72 -1.72,-1.72z" fill="#ffffff"></path><path d="M86.71552,36.44508l14.67848,29.95036l32.766,4.74376l-23.72224,23.27848l5.633,32.9122l-29.35524,-15.566l-29.35524,15.566l5.63472,-32.9122l-23.72224,-23.27848l32.766,-4.74376z" fill="#48bed8"></path><path d="M84.99036,38.08596l0.14276,-0.28724l0.43172,0.57448l0.14448,43.44204l-47.18476,-10.35612l33.37488,-4.60272zM132.7496,71.45912l-45.45788,10.93232l28.19596,44.01824l-5.75512,-32.36524z" fill="#ecf0f1"></path><path d="M39.69588,72.11272l46.44,10.32c0.4644,0.1032 0.92364,-0.1892 1.02684,-0.6536c0.1032,-0.4644 -0.1892,-0.92364 -0.6536,-1.02684l-46.44,-10.32c-0.4644,-0.1032 -0.92364,0.1892 -1.02684,0.6536c-0.1032,0.4644 0.1892,0.92364 0.6536,1.02684" fill="#472b29"></path><path d="M132.8528,71.00676l-47.39632,10.22368l29.23312,44.86104c0.25972,0.39732 0.79292,0.51084 1.19024,0.25112c0.39732,-0.25972 0.51084,-0.79292 0.25112,-1.19024l-27.86916,-42.7678l44.95392,-9.69736c0.4644,-0.09976 0.75852,-0.55728 0.65876,-1.02168c-0.09976,-0.4644 -0.55728,-0.75852 -1.02168,-0.65876zM85.89336,36.55v24.51c0,0.47472 0.38528,0.86 0.86,0.86c0.47472,0 0.86,-0.38528 0.86,-0.86v-24.51c0,-0.47472 -0.38528,-0.86 -0.86,-0.86c-0.47644,0 -0.86,0.38528 -0.86,0.86" fill="#472b29"></path><path d="M85.89336,74.82v6.88c0,0.47472 0.38528,0.86 0.86,0.86c0.47472,0 0.86,-0.38528 0.86,-0.86v-6.88c0,-0.47472 -0.38528,-0.86 -0.86,-0.86c-0.47644,0 -0.86,0.38528 -0.86,0.86M86,66.22v3.44c0,0.47472 0.38528,0.86 0.86,0.86c0.47472,0 0.86,-0.38528 0.86,-0.86v-3.44c0,-0.47472 -0.38528,-0.86 -0.86,-0.86c-0.47472,0 -0.86,0.38528 -0.86,0.86" fill="#472b29"></path><path d="M85.95012,81.64324l-17.25676,26.51036c-0.25972,0.39732 -0.1462,0.93052 0.25112,1.19024c0.39732,0.25972 0.93052,0.1462 1.19024,-0.25112l17.25504,-26.50864c0.25972,-0.39732 0.1462,-0.93052 -0.25112,-1.19024c-0.39732,-0.25972 -0.93052,-0.14792 -1.18852,0.2494M61.19244,119.68792l-3.75304,5.76888c-0.25972,0.39732 -0.1462,0.93052 0.25112,1.19024c0.39904,0.25972 0.93052,0.1462 1.19024,-0.25112l3.75304,-5.76888c0.25972,-0.39732 0.1462,-0.93052 -0.25112,-1.19024c-0.39904,-0.25972 -0.93052,-0.14792 -1.19024,0.25112M65.9706,112.53616l-1.87652,2.88444c-0.25972,0.39732 -0.1462,0.93052 0.25112,1.19024c0.39904,0.25972 0.93052,0.1462 1.19024,-0.25112l1.87652,-2.88444c0.25972,-0.39732 0.1462,-0.93052 -0.25112,-1.19024c-0.39732,-0.25972 -0.93052,-0.1462 -1.19024,0.25112" fill="#472b29"></path><path d="M116.07076,128.53388c-0.19264,0 -0.387,-0.04644 -0.56416,-0.14104l-28.79108,-15.26844l-28.79108,15.26844c-0.40592,0.215 -0.89956,0.1806 -1.26936,-0.08772c-0.37324,-0.26832 -0.559,-0.72756 -0.4816,-1.17992l5.5298,-32.29128l-23.27332,-22.83472c-0.3268,-0.32164 -0.44376,-0.7998 -0.301,-1.23496c0.14104,-0.43516 0.51944,-0.75164 0.97008,-0.817l32.1382,-4.65432l14.3964,-29.3776c0.40592,-0.8256 1.75612,-0.8256 2.16376,0l14.39812,29.3776l32.1382,4.65432c0.45236,0.06536 0.82904,0.38184 0.97008,0.817c0.14276,0.43516 0.02752,0.91332 -0.301,1.23496l-23.2716,22.83644l5.52808,32.29128c0.0774,0.45236 -0.10836,0.90988 -0.4816,1.17992c-0.20984,0.15136 -0.45752,0.22704 -0.70692,0.22704zM86.71552,110.55816c0.19264,0 0.38872,0.04644 0.56416,0.14104l27.19148,14.42048l-5.2202,-30.49904c-0.06536,-0.39044 0.06192,-0.78604 0.344,-1.06296l21.98676,-21.57396l-30.35972,-4.39804c-0.39388,-0.05676 -0.73272,-0.30444 -0.90816,-0.6622l-13.59832,-27.74188l-13.59488,27.74188c-0.17716,0.35776 -0.516,0.60544 -0.90816,0.6622l-30.35972,4.39804l21.98676,21.57396c0.28208,0.27692 0.40936,0.67424 0.344,1.06296l-5.22192,30.49732l27.19148,-14.41876c0.17372,-0.09288 0.3698,-0.14104 0.56244,-0.14104z" fill="#472b29"></path></g></g></svg>
+                </span>
+                <span class="addtowish">
+                    <span data-automation-id="addtowish">ADD TO WATCHLIST</span>
+                </span>
+            </div>
+        </div>
+        <div class="movcolor1"></div>
+        <div class="movcolor2"></div>
+        <div class="movcolor3"></div>
+        <div class="margrec"></div>
+        <div class="margbol"></div>
+    </div>
+    <div class="movdet">
+        <h1 class="category">CATEGORY
+            <p class="category1">Action, Sci-Fi</p>
+        </h1>
+        <h2 class="director">DIRECTOR/WRITER
+            <p class="director1">Director: Steven Spielberg</p>
+            <p class="director2">Writer: Ernest Cline</p>
+        </h2>
+    </div>
+    <div class="movdet1">
+        <h3 class="story">STORYLINE
+            <p class="storyline">Steven Spielberg returns to sci-fi in this story of a
+                 young outcast in the near future who escapes from his daily drudgery by 
+                 logging on to an online game called The Oasis. In a virtual treasure hunt,
+                  the avid gamer faces off against corporate foes after the prize as well.</p>
+        </h3>
+        <h4 class="cast">STARS
+            <p class="cast1">Lena Waithe, T.J. Miller, Simon Pegg, Mark Rylance, Philip Zhao, more....</p>
+        </h4>
+    </div>
+    <div class="recom">
+        <div>
+            <h5>Recommended Movies</h5>
+            <p5>Fan Favourites from around the world.</p5>
+        </div>
+        <div class="card1" onmouseover="beep5.play();">
+            <div class="poster1"><img src="https://cdn.collider.com/wp-content/uploads/2010/09/tron-legacy-movie-poster-one-sheet-2.jpg"></div>
+            <div class="details1">
+                <h6>Tron Legacy<br><span>Directed by Joseph Kosinki</span></h6>
+                <div class="rating1">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <span>3/5</span>
+                </div>
+                <div class="tags1">
+                    <span class="scifi1">Sci-Fi</span>
+                    <span class="action1">Action</span>
+                </div>
+                <div class="info1">
+                    <p>Sam misses his father, a virtual world designer, and enters a virtual
+                     space that has become much more dangerous than his father intended. Now, both father and son embark upon a life-and-death journey.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card2" onmouseover="beep5.play();">
+            <div class="poster2"><img src="http://www.impawards.com/2014/posters/interstellar_ver4_xlg.jpg" ></div>
+            <div class="details2">
+                <h6>Interstellar<br><span>Directed by Cristopher Nolan</span></h6>
+                <div class="rating2">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <span>4/5</span>
+                </div>
+                <div class="tags2">
+                    <span class="scifi2">Sci-Fi</span>
+                    <span class="action2">Adventure</span>
+                </div>
+                <div class="info2">
+                    <p>In Earth's future, a global crop blight and second Dust Bowl are slowly rendering the planet uninhabitable. 
+                        Professor Brand (Michael Caine), a brilliant NASA physicist, is working on plans to save mankind by.
+                        transporting Earth's population to a new home via a wormhole.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card3" onmouseover="beep5.play();">
+            <div class="poster3"><img src="https://www.joblo.com/assets/images/oldsite/posters/images/full/Venom-poster-6.jpg" ></div>
+            <div class="details3">
+                <h6>Venom<br><span>Directed by Ruben Fleischer</span></h6>
+                <div class="rating3">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <span>3/5</span>
+                </div>
+                <div class="tags3">
+                    <span class="scifi3">Sci-Fi</span>
+                    <span class="action3">Action</span>
+                </div>
+                <div class="info3">
+                    <p>While trying to take down Carlton, the CEO of Life Foundation, 
+                        Eddie, a journalist, investigates experiments of human trials. Unwittingly, he gets merged with a symbiotic alien with lethal abilities.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card33" onmouseover="beep5.play();">
+            <div class="poster33"><img src="https://www.moviexclusive.com/Files/442LAZARUS_EFFECT-2MB.jpg" ></div>
+            <div class="details33">
+                <h6>The Lazarus Effect <br><span>Directed by David Gelb</span></h6>
+                <div class="rating33">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <span>3/5</span>
+                </div>
+                <div class="tags33">
+                    <span class="scifi33">Horror</span>
+                    <span class="action33">Thriller</span>
+                </div>
+                <div class="info33">
+                    <p>Medical researcher Frank (Mark Duplass), his fiancee Zoe (Olivia Wilde) and their team have achieved the impossible: 
+                        they have found a way to revive the dead. After a successful, but unsanctioned, experiment on a lifeless animal, they are ready to make their work public. However,when their dean learns what they've done,he shuts them.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="rightarrow">
+            <button class="rightarrow1 wishl"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></button>
+        </div>
+        <div class="leftarrow">
+            <button class="leftarrow1 wishl"><i class="fa fa-arrow-circle-left" aria-hidden="true"></i></button>
+        </div>
+        <div>
+            <h7>Bollywood</h7>
+            <p7>Most Watched in India.</p7>
+        </div>
+        <div class="bolly">
+            <div class="card4" onmouseover="beep5.play();">
+                <div class="poster4"><img src="https://www.glamsham.com/Uploads/article/gully-boy-poster-20190619172020691.jpg" ></div>
+                <div class="details4">
+                    <h6>Gully Boy<br><span>Directed by Zoya Akhtar</span></h6>
+                    <div class="rating4">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <span>4/5</span>
+                    </div>
+                    <div class="tags4">
+                        <span class="scifi4">Musical</span>
+                        <span class="action4">Drama</span>
+                    </div>
+                    <div class="info4">
+                        <p>Murad, an underdog, struggles to convey his views on social issues and life in Dharavi 
+                            through rapping. His life changes drastically when he meets a local rapper, Shrikant alias MC Sher.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card5" onmouseover="beep5.play();">
+                <div class="poster5"><img src="https://m.media-amazon.com/images/M/MV5BNjlkZjBjZmUtNjZjNS00ODlkLWIzODYtODY0NmViN2E0MjIxXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg" ></div>
+                <div class="details5">
+                    <h6>Angrezi Medium<br><span>Directed by Homi Adajania</span></h6>
+                    <div class="rating5">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <span>4/5</span>
+                    </div>
+                    <div class="tags5">
+                        <span class="scifi5">Drama</span>
+                        <span class="action5">Comedy</span>
+                    </div>
+                    <div class="info5">
+                        <p>Champak, an unassuming mithai shop owner and single father is set to fulfil his daughter's dream to study in London.
+                           However, certain misadventures lead him and his family on a new quest, one which renews their relationships and bonds.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card6" onmouseover="beep5.play();">
+                <div class="poster6"><img src="https://www.filmibeat.com/ph-big/2018/10/game-over_153923696900.jpg" ></div>
+                <div class="details6">
+                    <h6>Game Over<br><span>Directed by Ashwin Saravanan</span></h6>
+                    <div class="rating6">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <span>3/5</span>
+                    </div>
+                    <div class="tags6">
+                        <span class="scifi6">Drama</span>
+                        <span class="action6">Psychological Thriller</span>
+                    </div>
+                    <div class="info6">
+                        <p>Swapna, a game designer, has post-traumatic stress disorder and a chronic fear of the dark.
+                             Her life turns upside down after a serial killer enters her house and creates havoc.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card7" onmouseover="beep5.play();">
+                <div class="poster7"><img src="https://m.media-amazon.com/images/M/MV5BZGFmMjM5OWMtZTRiNC00ODhlLThlYTItYTcyZDMyYmMyYjFjXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_.jpg" ></div>
+                <div class="details7">
+                    <h6>Zindagi Na Milegi Dobara<br><span>Directed by Zoya Akhtar</span></h6>
+                    <div class="rating7">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <span>4/5</span>
+                    </div>
+                    <div class="tags7">
+                        <span class="scifi7">Adventure</span>
+                        <span class="action7">Drama</span>
+                    </div>
+                    <div class="info7">
+                        <p>Friends Kabir, Imran and Arjun take a vacation in Spain before Kabir's marriage. 
+                            The trip turns into an opportunity to mend fences, heal wounds, fall in love with life and combat their worst fears.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="rightarrow2">
+            <button class="rightarrow22 wishl"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></button>
+        </div>
+        <div class="leftarrow2">
+            <button class="leftarrow22 wishl"><i class="fa fa-arrow-circle-left" aria-hidden="true"></i></button>
+        </div>
+    <div class="shomor">
+        <p class="shomor1">Show More..</p>
+        <i class="fa fa-chevron-down shomor2" aria-hidden="true"></i>
+    </div> 
+    
+
+
+    </div>
+    <div class="sidebar">
+        <ul class="first">
+            <li><a href="#" class="hover"><i class="fas fa-stream"></i>Dashboard</a></li>
+            <li><a href="#" class="hover"><i class="fas fa-film"></i>All Films</a> </li>
+            <li><a href="#" class="hover"><i class="fas fa-film"></i>Features</a> </li>
+            <li><a href="#" class="hover"><i class="fas fa-film"></i>Documents</a> </li>
+            <li><a href="#" class="hover"><i class="fas fa-film"></i>Tv Shows</a> </li>
+            <li><a href="#" class="hover"><i class="fas fa-film"></i>Commercials</a> </li>
+        </ul>
+    </div> 
+     
+
+    <!--Footer-->
+    <div class="footer">
+        <div class="footer-content">
+            <h8>Thank You for Visiting..!</h8>
+            <div class="gmail">
+                <button class="gmail1" onmouseover="beep5.play();"><i class="fa fa-google-plus" aria-hidden="true"></i></button>
+            </div>
+            <div class="facebook">
+                <button class="facebook1" onmouseover="beep5.play();"><i class="fa fa-facebook" aria-hidden="true"></i></button>
+            </div>
+            <div class="twitter">
+                <button class="twitter1" onmouseover="beep5.play();"><i class="fa fa-twitter" aria-hidden="true"></i></button>
+            </div>
+            <div class="linkedin">
+                <button class="linkedin1" onmouseover="beep5.play();"><i class="fa fa-linkedin" aria-hidden="true"></i></button>
+            </div>
+            <div class="dribble">
+                <button class="dribble1" onmouseover="beep5.play();"><i class="fa fa-dribbble" aria-hidden="true"></i></button>
+            </div>
+            <div class="instagram">
+                <button class="instagram1" onmouseover="beep5.play();"><i class="fa fa-instagram" aria-hidden="true"></i></button>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            &copy; dsckiet.tech | Designed by Arnav Saha
+        </div>
+        
+    </div>
+    
+    <section></section>
+    
+
+</body>
+<embed src="connection.mp3" autostart="true" loop="false" class="audio"> 
+</html>
