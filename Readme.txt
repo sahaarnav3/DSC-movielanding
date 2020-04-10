@@ -1,1 +1,0 @@
-Open the website in chrome, it looks best.
