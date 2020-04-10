@@ -53,7 +53,7 @@ nav {
 .nav-links{
     display: flex;
     justify-content: space-around;
-    padding-left: 59px;
+    padding-left: 69px;
     padding-top: 5px;
     width: 30%;
     font-size: 15.3px;
@@ -1586,14 +1586,14 @@ h8 {
 }
 .shomor1 {
     position: absolute;
-    color: rgb(255, 255, 255);
+    color: wheat;
     font-weight: normal;
     font-size: 25px;
     left: 4.5vh;
 }
 .shomor2 {
     position: absolute;
-    color: white;
+    color: wheat;
     font-size: 30px;
     top: 4vh;
     left: 12vh;
