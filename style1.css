@@ -439,7 +439,7 @@ label #cancel {
     padding-left: 20px;
 }
 .storyline {
-    font-size: 12.1px;
+    font-size: 11.3px;
     font-weight: 100;
     letter-spacing: 1px;
     color: #9bb8c5;
@@ -455,7 +455,7 @@ label #cancel {
 
 }
 .cast1 {
-    font-size: 14px;
+    font-size: 13.5px;
     font-weight: 100;
     letter-spacing: 1px;
     color: #9bb8c5;
@@ -524,7 +524,7 @@ p7 {
     overflow: hidden;
     box-shadow: 0 5px 10px rgba(0,0,0,0.5);
     border-radius: 9px;
-    -webkit-logical-width: 300px;
+    /*-webkit-logical-width: 300px;*/
 }
 .card1:hover {
     transform: scale(1.1);
@@ -638,7 +638,7 @@ p7 {
     overflow: hidden;
     box-shadow: 0 5px 10px rgba(0,0,0,0.5);
     border-radius: 9px;
-    -webkit-logical-width: 310px;
+    /*-webkit-logical-width: 310px;*/
 }
 .card2:hover {
     transform: scale(1.1);
@@ -746,7 +746,7 @@ p7 {
     overflow: hidden;
     box-shadow: 0 5px 10px rgba(0,0,0,0.5);
     border-radius: 9px;
-    -webkit-logical-width: 310px;
+    /*-webkit-logical-width: 310px;*/
 }
 .card3:hover {
     transform: scale(1.1);
@@ -959,7 +959,7 @@ p7 {
     overflow: hidden;
     box-shadow: 0 5px 10px rgba(0,0,0,0.5);
     border-radius: 9px;
-    -webkit-logical-width: 300px;
+    /*-webkit-logical-width: 300px;*/
 }
 .card4:hover {
     transform: scale(1.1);
@@ -1065,7 +1065,7 @@ p7 {
     overflow: hidden;
     box-shadow: 0 5px 10px rgba(0,0,0,0.5);
     border-radius: 9px;
-    -webkit-logical-width: 310px;
+    /*-webkit-logical-width: 310px;*/
 }
 .card5:hover {
     transform: scale(1.1);
@@ -1171,7 +1171,7 @@ p7 {
     overflow: hidden;
     box-shadow: 0 5px 10px rgba(0,0,0,0.5);
     border-radius: 9px;
-    -webkit-logical-width: 310px;
+    /*-webkit-logical-width: 310px;*/
 }
 .card6:hover {
     transform: scale(1.1);
@@ -1413,45 +1413,45 @@ p7 {
 .margrec {
     position: absolute;
     width: 1vh;
-    height: 9.5vh;
-    top: 91.5vh;
+    height: 8.4vh;
+    top: 93vh;
     background: #ffb223;
     z-index: 21;
-    -webkit-max-logical-height: 9vh;
-    -webkit-margin-before: 1vh;
+   /* -webkit-max-logical-height: 9vh;
+    -webkit-margin-before: 1vh;*/
 }
 .margbol {
     position: absolute;
     width: 1vh;
-    height: 9.5vh;
-    top: 177vh;
+    height: 8.4vh;
+    top: 178.5vh;
     background: orange;
     z-index: 21;
-    -webkit-max-logical-height: 8.5vh;
-    -webkit-margin-before: 1vh;
+    /*-webkit-max-logical-height: 8.5vh;
+    -webkit-margin-before: 1vh;*/
 }
 
 .footer {
     position: absolute;
-    top: 330.1vh;
+    top: 332vh;
     width:100%;
-    height: 25vh;
+    height: 30vh;
     background: #1a1a1a;
 }
 h8 {
     position: absolute;
     font-size: 38px;
     top: 2vh;
-    left: 69vh;
+    left: 71vh;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
     letter-spacing: 2px;
     color: #fad185ef;
-    -webkit-margin-start: 1vh;
+    /*-webkit-margin-start: 1vh;*/
 }
 .footer-bottom {
     position: absolute;
-    left: 78vh;
+    left: 79vh;
     top: 18.5vh;
     font-size: 17px;
     color: #ffdb98ef;
@@ -1461,7 +1461,7 @@ h8 {
     position: absolute;
     top: 10vh;
     font-size: 40px;
-    left: 72.7vh;
+    left: 74vh;
     background-color: #0a0a0a00;
     border-width: 0px;
     color: #fad185ef;
@@ -1476,51 +1476,51 @@ h8 {
     background-size: 0px;
     border-width: 0px;
     color: #fad185ef;
-    -webkit-margin-start: -1vh;
+    /*-webkit-margin-start: -1vh;*/
 }
 .twitter1 {
     position: absolute;
     top: 10.7vh;
     font-size: 32px;
-    left: 97vh;
+    left: 95vh;
     background-color: #0a0a0a00;
     background-size: 0px;
     border-width: 0px;
     color: #fad185ef;
-    -webkit-margin-start: -2.5vh;
+    /*-webkit-margin-start: -2.5vh;*/
 }
 .linkedin1 {
     position: absolute;
     top: 10.7vh;
     font-size: 32px;
-    left: 109.3vh;
+    left: 105.5vh;
     background-color: #0a0a0a00;
     background-size: 0px;
     border-width: 0px;
     color: #fad185ef;
-    -webkit-margin-start: -3.5vh;
+    /*-webkit-margin-start: -3.5vh;*/
 }
 .instagram1 {
     position: absolute;
     top: 10.7vh;
     font-size: 32px;
-    left: 120.8vh;
+    left: 115.5vh;
     background-color: #0a0a0a00;
     background-size: 0px;
     border-width: 0px;
     color: #fad185ef;
-    -webkit-margin-start: -3.8vh;
+   /* -webkit-margin-start: -3.8vh;*/
 }
 .dribble1 {
     position: absolute;
     top: 10.7vh;
     font-size: 32px;
-    left: 131vh;
+    left: 124.7vh;
     background-color: #0a0a0a00;
     background-size: 0px;
     border-width: 0px;
     color: #fad185ef;
-    -webkit-margin-start: -4vh;
+    /*-webkit-margin-start: -4vh;*/
 }
 .gmail1:hover {
     transform: scale(1.1);
@@ -1536,14 +1536,17 @@ h8 {
     background: #0081fa;
     border-radius: 5px;
     width: 40px;
-    -webkit-padding-before: .4vh;
+    padding-top: 2px;
+    margin-top: -2px;
+    /*-webkit-padding-before: .4vh;*/
 }
 .twitter1:hover {
     transform: scale(1.1);
     background: white;
     color: #00abfa;
     border-radius: 5px;
-    width: 40px;
+    width: 42px;
+    
 }
 .linkedin1:hover {
     transform: scale(1.1);
@@ -1551,7 +1554,9 @@ h8 {
     color: #047ec0;
     border-radius: 5px;
     width: 40px;
-    -webkit-padding-before: .5vh;
+    padding-top: 2px;
+    margin-top: -2px;
+    /*-webkit-padding-before: .5vh;*/
 }
 .instagram1:hover {
     transform: scale(1.1);
@@ -1560,7 +1565,9 @@ h8 {
     border-radius: 5px;
     width: 40px;
     padding-bottom: 1px;
-    -webkit-padding-before: .5vh;
+    padding-top: 3px;
+    margin-top: -2px;
+   /* -webkit-padding-before: .5vh;*/
 }
 .dribble1:hover {
     transform: scale(1.1);
@@ -1569,7 +1576,9 @@ h8 {
     border-radius: 5px;
     width: 40px;
     padding-bottom: 1px;
-    -webkit-padding-before: .5vh;
+    padding-top: 3px;
+    margin-top: -2px;
+    /*-webkit-padding-before: .5vh;*/
 }
 
 .shomor {
@@ -1579,7 +1588,7 @@ h8 {
     height: 8vh;
     top: 179vh;
     left: 85vh;
-    -webkit-margin-before: -6vh;
+    /*-webkit-margin-before: -6vh;*/
 }
 .shomor:hover {
     transform: scale(1.1);
@@ -1600,7 +1609,7 @@ h8 {
 }
 .audio {
     
-    -webkit-margin-before: 1.5vh;
+   /* -webkit-margin-before: 1.5vh;*/
 }
 
 
@@ -1616,7 +1625,7 @@ h8 {
 
 section {
     width: 100;
-    height: 334vh;
+    height: 340vh;
     color: black;
     background: linear-gradient( 50deg, #5f2407, #003d35, #2f195f, #302f2f);
     background-size: 200% 200%;
