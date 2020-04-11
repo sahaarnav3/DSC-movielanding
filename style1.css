@@ -1621,7 +1621,9 @@ h8 {
 
 
 /*linear-gradient( 45deg, #00515c, #005a66, #00052c, #00052c)*/
-
+.body1{
+    width: 100%;
+}
 
 section {
     width: 100;
